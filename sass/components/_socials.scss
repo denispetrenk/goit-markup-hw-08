@@ -1,0 +1,32 @@
+.social {
+  margin-left: 70px;
+  margin-right: auto;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 16px;
+}
+
+.socials__link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: $paragraph-color;
+  transition-property: color, background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+}
+
+.socials__link:hover,
+.socials__link:focus {
+  color: $background-color;
+  background-color: $accent-color;
+}
+
+.socials__icon {
+  fill: currentColor;
+}

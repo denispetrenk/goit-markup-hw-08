@@ -1,0 +1,37 @@
+.clients-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 30px;
+}
+
+.clients-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: $social-color;
+  width: 100%;
+  height: 100%;
+  border: 1px solid currentColor;
+  border-radius: 4px;
+  transition-property: color, border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  &:hover,
+  &:focus {
+    border: 1px solid $accent-color;
+    color: $accent-color;
+  }
+}
+.clients-icon {
+  width: 170px;
+  height: 92px;
+}
+
+// .clients-item:hover,
+// .clients-item:focus {
+//   border: 1px solid var(--accent-color);
+//   color: var(--accent-color);
+// }

@@ -1,0 +1,85 @@
+.why__title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.why__item {
+  position: relative;
+}
+
+.why__text {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  background-color: $why-bg-color;
+  color: $background-color;
+  font-weight: 700;
+  line-height: 16px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+}
+
+.title {
+  /*заголовок проектов в порфолио*/
+  margin-bottom: 4px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: calc(36 / 18);
+  letter-spacing: 0.06em;
+  color: $maintext-color;
+}
+.title-char {
+  /*заголовок характеристик в студия*/
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-align: left;
+  font-style: normal;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.txt-char {
+  /*текст характеристик в студия*/
+
+  font-weight: 400;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: $paragraph-color;
+}
+.section__title {
+  /*заголовок чем мы занимаемя( и наша команда) в студия*/
+  font-size: 36px;
+  font-weight: 700;
+  line-height: calc(42 / 36);
+  letter-spacing: 0.03em;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.why__list,
+.team__list {
+  display: flex;
+  gap: 30px;
+
+  .why-list:first-child,
+  .team__list:first-child {
+    margin-left: 0;
+  }
+}
+
+.why-list:first-child,
+.team__list:first-child {
+  margin-left: 0;
+}

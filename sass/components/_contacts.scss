@@ -1,0 +1,37 @@
+.contacts {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-left: auto;
+}
+
+.contacts-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: $paragraph-color;
+  font-weight: 500;
+  font-size: 1t4px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.02em;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-delay: 0;
+  & + & {
+    margin-left: 50px;
+  }
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.svg-contacts {
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+// .contacts-item + .contacts-item {
+//   margin-left: 50px;
+// }
