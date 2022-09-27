@@ -48,12 +48,6 @@ img {
   font-style: normal;
 }
 
-.list {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
 .container {
   width: 1200px;
   padding-left: 15px;
@@ -101,6 +95,12 @@ img {
 
 .logo-footer {
   color: #ffffff;
+}
+
+.header-nav {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
 }
 
 .header-nav {
