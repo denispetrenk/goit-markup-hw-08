@@ -2,6 +2,7 @@
   display: flex;
   gap: 30px;
 }
+
 .features--list {
   list-style: none;
   padding-left: 0;
@@ -56,4 +57,16 @@
   letter-spacing: 0.03em;
   text-align: left;
   color: $paragraph-color;
+}
+@media screen and (max-width: 480px) {
+  .features {
+    flex-direction: column;
+    max-width: 450px;
+    outline: 2px solid green;
+  }
+  .features__item {
+    margin: 0;
+    padding: 25px 50px;
+    max-width: 450px;
+  }
 }
