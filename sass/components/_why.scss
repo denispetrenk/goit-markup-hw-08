@@ -83,3 +83,9 @@
 .team__list:first-child {
   margin-left: 0;
 }
+
+.why {
+  @media (max-width: 767px) {
+    display: none;
+  }
+}

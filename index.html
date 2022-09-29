@@ -21,16 +21,41 @@
   </head>
 
   <body>
-    <!-- <header class="header-studio">
+    <header class="header-studio">
       <div class="container header-container">
          <nav class="header-container">
+         
           <a class="logo" href="./index.html">
-            <span class="logo-blue"> Web</span>Studio</a
-          >
+            <span class="logo-blue"> Web</span>Studio</a>
+
+    <div class="menu-container js-menu-container" id="mobile-menu">
+      <button class="menu-toggle js-close-menu">
+        <svg
+          fill="currentColor"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+        >
+          <path
+            fill-rule="evenodd"
+            d="M4.293 4.293a1 1 0 011.414 0L10 8.586l4.293-4.293a1 1 0 111.414 1.414L11.414 10l4.293 4.293a1 1 0 01-1.414 1.414L10 11.414l-4.293 4.293a1 1 0 01-1.414-1.414L8.586 10 4.293 5.707a1 1 0 010-1.414z"
+            clip-rule="evenodd"
+          ></path>
+        </svg>
+      </button>
+
+      <ul class="mobile-menu">
+        <li><a href="" class="link">About</a></li>
+        <li><a href="" class="link">Products</a></li>
+        <li><a href="" class="link">Contacts</a></li>
+        <li><a href="" class="link">Career</a></li>
+      </ul>
+    </div>
 
           <ul class="header-nav">
             <li>
-              <a class="navigation-item logo-blue nav-active" href="./index.html">
+              <a class="navigation-item logo-blue nav-active " href="./index.html">
                 Студия</a
               >
             </li>
@@ -59,17 +84,18 @@
           </li>
         </ul>
       </div>
-    </header> -->
+    </header>
 
     <main>
     
-        <!-- <section class="hero">
+       <section class="hero">
           <div class="container">
             <h1 class="hero__title">Ефективні рішення для вашого бізнесу</h1>
-            <button class="button-serv" data-modal-open type="button">Замовити послугу</button>
+            <button class="button-serv" data-modal-open type="button">
+              Замовити послугу</button>
          
             <!-- modal window -->
-<!-- 
+
 <div class="backdrop is-hidden" data-modal>
   <div class="modal">
       <button type="submit" class="modal-cross " data-modal-close href="">
@@ -122,7 +148,7 @@
             </div>
         </div>   
       </section>
-  -->
+  
       <section class="section">
         <div class="container">
           <h2 class="visually-hidden">
@@ -135,74 +161,73 @@
      -->
           <ul class=" features features--list">
 
-            <li>
-              <div class="features__item">
-                <a class="features__link" href="">
-              <svg class="features__icon" width="70" height="70">
+            <li class="features__item">
+              <div>
+                  <svg  width="70" height="70">
                  <use href="./images/icons/icons.svg#icon-antenna-1"></use>
               </svg>
-            </a></div>
+            </div>
               <h3 class="features__title">увага до деталей</h3>
              
                         
-              <!-- <p class="features__text">
+              <p class="features__text">
                 Ідейні міркування, і навіть початок повсякденної роботи з
                 формування позиції.
-              </p>  -->
+              </p> 
            
             </li>
 
-            <li>
-              <div class="features__item"
-              ><a class="features__link " href="">
-              <svg class="features__icon" width="70" height="70">
+            <li class="features__item">
+              <div class="features__link ">
+               
+              <svg  width="70" height="70">
                 <use href="./images/icons/icons.svg#icon-clock-1"></use>
               </svg>
-            </a></div>
+            </div>
               <h3 class="features__title">пунктуальність</h3>
                  
-              <!-- <p class="features__text">
+              <p class="features__text">
                 Завдання організації, особливо рамки і місце навчання кадрів
                 тягне у себе.
-              </p> -->
+              </p>
             </li>
 
-            <li>
-              <div class="features__item">
-                <a class="features__link" href="">
-              <svg class="features__icon" width="70" height="70">
+            <li class="features__item">
+              <div class="features__link " >
+              
+              <svg  width="70" height="70">
                 <use href="./images/icons/icons.svg#icon-diagram-1"></use>
               </svg>
-            </a></div>
+            </div>
               <h3 class="features__title">планування</h3>
                  
-              <!-- <p class="features__text">
+              <p class="features__text">
                 Так само консультація з широким активом значною мірою зумовлює.
-              </p> -->
+              </p>
             </li>
 
-            <li>
-              <div class="features__item">
-                <a class="features__link " href="">
+            <li  class="features__item">
+              <div class="features__link " >
+                <a  href="">
               <svg class="features__icon" width="70" height="70">
                 <use href="./images/icons/icons.svg#icon-astronaut-1"></use>
               </svg>
             </a></div>
               <h3 class="features__title">сучасні технологіі</h3>
         
-              <!-- <p class="features__text">
+              <p class="features__text">
               
                 Значимість цих проблем настільки очевидна, що реалізація
                 планових завдань
-              </p> -->
+              </p>
             </li>
           </ul>
         </div>
       </section>
 
-<!-- Why we -->
-<!-- 
-      <section class="section ">
+<!-- ---------------------Why we ---------------------->
+
+      <section class="section why">
         <div class="container">
           <h2 class="section__title">Чим ми займаємося</h2>
                        
@@ -243,11 +268,11 @@
             </li>
           </ul>
         </div>
-      </section> -->
+      </section>
 
                             <!-- OUR TEAM -->
 
-      <!-- <section class="team section">
+   <section class="team section">
         <div class="container">
           <h2 class="section__title">Наша команда</h2>
 
@@ -421,11 +446,10 @@
         </ul>
             </div>
         </div>
-      </section> -->
+      </section> 
 
       <!--------------CLIENTS --------------->
-
-      <!-- <section class="section">
+ 
         <div class="container">
         <h2 class="section__title">Постійні клієнти</h2>
          <ul class="list clients-list ">
@@ -479,8 +503,7 @@
           </ul></div>
       </section>
     </main>
-     -->
-    <!-- <footer class="foot">
+ <footer class="foot">
       <div class="container">
         
           <div class="addr">
@@ -563,8 +586,17 @@
           </button>
         </form>
       </div>
-    </footer> -->
+    </footer> 
+     <script
+      defer
+      src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js"
+      integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA=="
+      crossorigin="anonymous"
+    ></script>
+<script defer src="js/mobile-menu.js"></script>
     <script src="./js/modal.js"></script>
-     <!-- 23:42 20.09.2022 -->
+
+    
+   
   </body>
 </html>
