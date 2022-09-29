@@ -1,12 +1,23 @@
 .features {
   display: flex;
   gap: 30px;
-  // flex-wrap: wrap;
+  flex-direction: column;
 
-  @media screen and (max-width: 480px) {
-    flex-direction: column;
-    max-width: 480px;
+  @media screen and (min-width: 468px) {
+    max-width: 468px;
+    outline: 2px solid red;
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-wrap: wrap;
+    flex-basis: calc((100% - 20px) / 2);
     outline: 2px solid green;
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
+    outline: 2px solid red;
+    flex-direction: row;
   }
 }
 
@@ -18,13 +29,22 @@
 
 .features__item {
   padding: 25px 100px;
-  width: 100%;
+  width: calc((100% - 20px) / 2);
   height: 120px;
   background: $second-background-color;
   border-radius: 4px;
   margin-bottom: 30px;
-  @media screen and (max-width: 480px) {
-    max-width: 450px;
+
+  @media screen and (min-width: 468px) {
+    max-width: 354px;
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 20px) / 2);
+  }
+
+  @media screen and (min-width: 1200px) {
+    max-width: 1200px;
   }
 }
 
