@@ -682,7 +682,6 @@ textarea:focus, textarea:hover {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
     gap: 30px;
-    outline: 2px solid green;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -709,17 +708,14 @@ textarea:focus, textarea:hover {
 }
 @media screen and (min-width: 768px) {
   .features__item {
-    -ms-flex-preferred-size: calc(100% - 30px)/2;
-        flex-basis: calc(100% - 30px)/2;
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
   }
 }
 @media screen and (min-width: 1140px) {
   .features__item {
-    max-width: 340px;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
+    -ms-flex-preferred-size: calc((100% - 160px) / 4);
+        flex-basis: calc((100% - 160px) / 4);
   }
 }
 @media screen and (max-width: 767px) {
