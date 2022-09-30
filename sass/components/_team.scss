@@ -3,16 +3,35 @@
 }
 
 .team__list {
+  // display: flex;
+  // gap: 30px;
+  justify-content: center;
+  // flex-direction: column;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
+  @media screen and (min-width: 768px) {
+    //   width: 200px;
+  }
 }
 
 .team__item {
-  max-width: 270px;
+  width: 100%;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   background-color: $background-color;
+
+  @media screen and (min-width: 468px) {
+  }
+
+  @media screen and (min-width: 768px) {
+    flex-basis: calc((100% - 60px) / 2);
+  }
+
+  @media screen and (min-width: 1140px) {
+    flex-basis: calc((100% - 120px) / 4);
+  }
 }
 
 .team__name {
