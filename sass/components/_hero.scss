@@ -13,16 +13,21 @@
 .hero__title {
   margin: 0 auto;
   margin-bottom: 30px;
-  width: 696px;
+  width: 360px;
   color: $background-color;
   font-weight: 900;
-  font-size: 44px;
+
+  font-size: 26px;
   line-height: calc(60 / 44);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-}
 
+  @media screen and (min-width: 768px) {
+    font-size: 44px;
+    width: 696px;
+  }
+}
 .button-serv {
   display: block;
   margin-top: 30px;
