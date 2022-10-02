@@ -1,7 +1,11 @@
 .header-studio {
   border-bottom: 1px solid #ececec;
+  display: flex;
+  align-items: center;
 }
 .header-container {
+  // width: 200px;
+  // @media (min-width: 767px) {
   display: flex;
   align-items: center;
 }
@@ -42,11 +46,13 @@
 .menu-toggle {
   min-height: 40px;
   min-width: 40px;
+
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0;
   padding: 0;
+  margin-left: auto;
   background-color: transparent;
   cursor: pointer;
   border: none;
