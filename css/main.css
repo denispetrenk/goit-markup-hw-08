@@ -225,6 +225,16 @@ img {
           justify-content: flex-end;
 }
 
+.header-nav,
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
 @media (max-width: 767px) {
   .header-nav,
 .contacts {

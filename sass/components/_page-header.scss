@@ -13,12 +13,13 @@
   justify-content: flex-end;
 }
 
-// .menu {
-//   display: flex;
-//   padding: 0;
-//   margin: 0;
-//   list-style: none;
-// }
+.header-nav,
+.contacts {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
 
 @media (max-width: 767px) {
   .header-nav,
