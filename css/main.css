@@ -1539,9 +1539,17 @@ textarea:focus, textarea:hover {
   border: 1px solid #eeeeee;
   border-top: none;
 }
-@media screen and (min-width: 768px) and (max-width: 1140px) {
-  .card-item {
-    width: 50%;
+
+@media screen and (min-width: 768px) {
+  .card-set {
+    -ms-flex-preferred-size: calc((100% - 30px) / 2);
+        flex-basis: calc((100% - 30px) / 2);
+  }
+}
+@media screen and (min-width: 1140px) {
+  .card-set {
+    -ms-flex-preferred-size: calc((100% - 60px) / 3);
+        flex-basis: calc((100% - 60px) / 3);
   }
 }
 
