@@ -178,8 +178,13 @@
   border-radius: 4px;
   margin: 0 auto;
 
+  @media screen and (min-width: 480px) {
+    width: 450px;
+  }
+
   @media screen and (min-width: 1140px) {
     margin-right: 12px;
+    width: 358px;
   }
 }
 

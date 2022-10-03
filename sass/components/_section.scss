@@ -1,8 +1,13 @@
 .section {
-  margin-bottom: 60px;
-  padding-top: 94px;
+  padding-bottom: 60px;
+  padding-top: 60px;
 
-  &:last-child {
+  @media (min-width: 1199px) {
     padding-bottom: 94px;
+    padding-top: 94px;
+
+    // &:last-child {
+    //   padding-bottom: 94px;
+    // }
   }
 }

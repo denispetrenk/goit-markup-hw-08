@@ -5,9 +5,9 @@
   background-image: url(../images/header-mobile.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  padding: 200px 0;
-  max-width: 1600px;
-  height: 600px;
+  padding: 118px 0;
+  max-width: 480px;
+  height: 400px;
   margin: 0 auto;
 }
 
@@ -32,6 +32,9 @@
 @media (min-width: 769px) {
   .hero {
     background-image: url(../images/header-desctop.jpg);
+    padding: 200px 0;
+    max-width: 1600px;
+    height: 600px;
   }
 
   @media (min-resolution: 2dppx) {
@@ -44,7 +47,7 @@
 .hero__title {
   margin: 0 auto;
   margin-bottom: 30px;
-  width: 360px;
+  width: 300px;
   color: $background-color;
   font-weight: 900;
 
