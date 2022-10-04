@@ -5,7 +5,8 @@
 }
 
 .card-link {
-  display: block;
+  display: flex;
+  flex-direction: column;
   transition-property: background-color, color, box-sadow;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -18,12 +19,14 @@
 }
 
 .card-item {
+  flex-grow: 1;
   padding: 20px 24px;
   border: 1px solid $group-color;
   border-top: none;
 }
 
 .card-set {
+  display: flex;
   @media screen and (min-width: 768px) {
     flex-basis: calc((100% - 30px) / 2);
   }
