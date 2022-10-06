@@ -92,6 +92,9 @@
 
 .features__item {
   margin: 0;
-  padding: 25px 50px;
+  // padding: 25px 50px;
   max-width: 480px;
+}
+.features__item:not(:last-child) {
+  margin-bottom: 30px;
 }

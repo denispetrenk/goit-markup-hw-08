@@ -1,12 +1,14 @@
 .logo {
   color: var(--text-color);
   font-weight: 700;
-  font-family: var(--second-font);
+  font-family: $second-font;
   font-style: normal;
   line-height: 1.2;
   font-size: 26px;
   text-decoration: none;
   display: inline-block;
+  padding-top: 15px;
+  padding-bottom: 15px;
 
   @media screen and (max-width: 767px) {
     width: auto;

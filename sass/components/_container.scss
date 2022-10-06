@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 480px) {
   .container {
-    width: 100%;
+    width: 480px;
   }
 }
 
@@ -37,8 +37,8 @@
   }
 }
 
-@media screen and (min-width: 1140px) {
+@media screen and (min-width: 1200px) {
   .container {
-    width: 1140px;
+    width: 1200px;
   }
 }
