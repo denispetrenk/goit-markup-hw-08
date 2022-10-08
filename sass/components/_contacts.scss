@@ -10,16 +10,25 @@
 
   @media screen and (min-width: 768px) and (max-width: 1140px) {
     flex-wrap: wrap;
-    gap: 10px;
+    // gap: 10px;
     width: 200px;
     margin-left: 90px;
+    
   }
+}
+.contacts-link+.contacts-link {
+  margin-bottom: 10px;
 }
 
 .menu-toggle {
   display: none;
 }
 
+.contacts-link+.contacts-link {
+  @media screen and (min-width: 768px) and (max-width: 1140px) {
+       margin-bottom: 10px;
+  }
+}
 .contacts-item {
   display: flex;
   align-items: center;
@@ -35,12 +44,18 @@
   transition-delay: 0;
   & + & {
     margin-left: 50px;
+    margin-bottom: 10px;
   }
+  
   &:hover,
   &:focus {
     color: $accent-color;
   }
-}
+
+ 
+  }
+
+
 
 .svg-contacts {
   margin-right: 10px;
