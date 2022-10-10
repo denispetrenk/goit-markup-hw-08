@@ -155,7 +155,7 @@ img {
     display: flex;
   }
 }
-@media screen and (min-width: 768px) and (max-width: 1140px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .contacts {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
@@ -168,7 +168,7 @@ img {
   display: none;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1140px) {
+@media screen and (min-width: 768px) and (max-width: 1199px) {
   .contacts-link:not(:last-child) {
     margin-bottom: 10px;
   }
@@ -525,6 +525,7 @@ body {
   display: inline-block;
   padding-top: 15px;
   padding-bottom: 15px;
+  padding-right: 20px;
 }
 @media screen and (max-width: 767px) {
   .logo {
@@ -679,6 +680,11 @@ body {
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
   z-index: 2;
+}
+@media screen and (min-width: 480px) {
+  .modal {
+    min-width: 450px;
+  }
 }
 @media screen and (min-width: 1199px) {
   .modal {
@@ -1127,7 +1133,7 @@ textarea:focus, textarea:hover {
 .why {
   padding-top: 0;
 }
-@media (max-width: 769px) {
+@media (max-width: 1199px) {
   .why {
     display: none;
   }
@@ -1368,6 +1374,11 @@ textarea:focus, textarea:hover {
     margin-left: 65px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .addr {
+    text-align: left;
+  }
+}
 
 .foot-address {
   font-style: normal;
@@ -1411,6 +1422,11 @@ textarea:focus, textarea:hover {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
+@media screen and (min-width: 1200px) {
+  .mat-color {
+    text-align: left;
+  }
+}
 .list .mat-color:hover, .list .mat-color:focus {
   color: #2196f3;
 }
@@ -1429,6 +1445,12 @@ textarea:focus, textarea:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+@media screen and (min-width: 1200px) {
+  .address-item {
+    text-align: left;
+  }
 }
 
 .address-item:not(:last-child) {
@@ -1457,6 +1479,12 @@ textarea:focus, textarea:hover {
   text-transform: uppercase;
   margin-left: 0;
   margin-bottom: 20px;
+}
+@media screen and (min-width: 1200px) {
+  .footer-title {
+    text-align: left;
+    margin-bottom: 0;
+  }
 }
 
 .footer-icon {

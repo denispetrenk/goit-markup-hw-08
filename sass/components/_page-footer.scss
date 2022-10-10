@@ -19,6 +19,10 @@
   @media screen and (min-width: 768px) and (max-width: 1199px) {
     margin-left: 65px;
   }
+  @media screen and (min-width: 1200px){
+    text-align: left;
+  }
+
 }
 .foot-address {
   font-style: normal;
@@ -54,7 +58,9 @@
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-
+  @media screen and (min-width: 1200px){
+    text-align: left;
+  }
   .list &:hover,
   .list &:focus {
     color: $accent-color;
@@ -73,7 +79,12 @@
 .footer-horizont {
   display: flex;
 }
+.address-item {
+   @media screen and (min-width: 1200px){
+  text-align: left;
+}
 
+}
 .address-item:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -97,6 +108,11 @@
   text-transform: uppercase;
   margin-left: 0;
   margin-bottom: 20px;
+  @media screen and (min-width: 1200px){
+    text-align: left;
+    margin-bottom: 0;
+  }
+
 }
 .footer-icon {
   display: flex;
