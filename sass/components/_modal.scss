@@ -42,8 +42,8 @@
   transition-duration: 1s;
   z-index: 2;
 
-  @media screen and (min-width: 767px) {
-    // min-width: 550px;
+  @media screen and (min-width: 480px) {
+    // min-width: 450px;
   }
 
   @media screen and (min-width: 1199px) {

@@ -393,9 +393,9 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  row-gap: 10px;
   margin-top: 64px;
   font-size: 18px;
   line-height: 22px;
@@ -605,7 +605,7 @@ body {
     width: 360px;
   }
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1200px) {
   .hero__title {
     font-size: 44px;
     width: 696px;
